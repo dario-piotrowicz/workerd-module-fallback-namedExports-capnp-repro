@@ -16,9 +16,6 @@ export class ModuleFallbackServer {
         res.end(`{
           "name": "a.cjs",
           "commonJsModule": "
-            // default export
-            module.exports = '__default__';
-  
             // exports declared as named ones
             exports.foo = '__foo__';
             exports.bar = '__bar__';

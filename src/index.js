@@ -3,7 +3,6 @@ export default {
         const { default: defaultExport, foo, bar, baz } = await import('./a.cjs');
         return new Response(
             `
-            defaultExport (should be __default__): ${defaultExport}
             declared named export foo (should be __foo__): ${foo}
             declared named export bar (should be __bar__): ${bar}
             undeclared named export baz (should be undefined): ${baz}
