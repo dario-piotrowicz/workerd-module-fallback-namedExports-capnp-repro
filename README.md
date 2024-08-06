@@ -1,6 +1,6 @@
-# workerd-namedExports-capnp-repro
+# workerd-module-fallback-namedExports-capnp-repro
 
-Reproduction of the workerd cjs modules `namedExports` capnp module configuration.
+Reproduction of the workerd cjs modules `namedExports` capnp module configuration via the module fallback service.
 
 ## Reproduction steps
 

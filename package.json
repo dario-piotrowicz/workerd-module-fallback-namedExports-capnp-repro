@@ -1,11 +1,11 @@
 {
-  "name": "workerd-namedexports-capnp-repro",
+  "name": "workerd-module-fallback-namedexports-capnp-repro",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start-workerd": "npx workerd serve src/config.capnp",
+    "start-workerd": "npx workerd serve --experimental src/config.capnp",
     "start": "node start.mjs"
   },
   "author": "",

@@ -8,7 +8,7 @@ const helloWorldExample :Workerd.Config = (
 const helloWorld :Workerd.Worker = (
   modules = [
     (name = "worker", esModule = embed "index.js"),
-    (name = "a.cjs", commonJsModule = embed "a.cjs", namedExports = ["foo", "bar"]),
   ],
   compatibilityDate = "2023-02-28",
+  moduleFallback = "localhost:8888",
 );
